@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Banking.Models.Domain.BankAccount">
+    <Position X="0.5" Y="1" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAEgAgAAAIEAAgAAIAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Domain\BankAccount.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_transactions" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Banking.Models.Domain.Transaction">
+    <Position X="8.25" Y="1" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAEAAAAAAAAAAAAAAAACAAAAAAAEAAAAAAAAAAQA=</HashCode>
+      <FileName>Models\Domain\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banking.Models.Domain.SavingsAccount">
+    <Position X="0.5" Y="4" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAEAAEAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Models\Domain\SavingsAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Banking.Models.Domain.IBankAccount">
+    <Position X="6.75" Y="4" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAgAAAAEAAgAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Domain\IBankAccount.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Banking.Models.Domain.TransactionType">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Domain\TransactionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
