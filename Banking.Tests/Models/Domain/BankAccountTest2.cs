@@ -55,7 +55,7 @@ namespace Banking.Tests.Models.Domain
         {
             _bankAccount.Deposit(200);
             _bankAccount.Deposit(400);
-            Assert.Equal(200, _bankAccount.Balance);
+            Assert.Equal(600, _bankAccount.Balance);
         }
 
         [Theory]
